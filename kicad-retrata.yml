@@ -1,0 +1,14 @@
+# Configuración de kicad-retrata (https://github.com/piruetasxyz/kicad-retrata).
+# Todas las rutas son relativas a la raíz del repositorio.
+carpeta-imagenes: docs/images
+
+descripciones:
+  "Connector:Conn_01x04_Pin": "Conector de alimentación (4 pines): Molex KK-396 5273-04A, 1x04, 3.96 mm, vertical, THT"
+  "Connector_Generic:Conn_02x08_Odd_Even": "Header de alimentación Eurorack (16 pines): box header 2x08, 2.54 mm, vertical, THT, con carcasa y muesca de polarización ([Thonk](https://www.thonk.co.uk/shop/16pin-power-headers-shrouded/))"
+  "easyeda2kicad:URA2412YMD-20WR3_C5369773": "Convertidor DC-DC aislado ±12V: URA2412YMD-20WR3, 20 W, THT ([LCSC C5369773](https://www.lcsc.com/product-detail/C5369773.html))"
+
+# Para cambiar de revisión, actualizar "proyecto" (por ejemplo rev-a → rev-b).
+modulos:
+  - nombre: chufe
+    proyecto: hardware/chufe-v-0-rev-a/chufe-v-0-rev-a
+    doc: docs/index.md
