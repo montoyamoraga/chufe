@@ -2832,7 +2832,7 @@
 			(uuid "f07a8110-c81c-4c3d-8835-c5d0c3cbf84d")
 		)
 		(embedded_fonts no)
-		(model "bibliotecas/easyeda2kicad.3dshapes/PWRM-TH_YLPTEC_VRBXXXXYMD-20WR3.wrl"
+		(model "${KIPRJMOD}/../../terceros/easyeda2kicad.3dshapes/PWRM-TH_YLPTEC_VRBXXXXYMD-20WR3.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
