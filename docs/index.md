@@ -67,6 +67,10 @@ Generados automáticamente por GitHub Actions a partir de `hardware/chufe-v-0-re
 
 ![Placa de chufe v0.1 rev-a](./images/chufe-placa.svg)
 
+Render 3D de la placa:
+
+<video src="./videos/chufe-placa-3d-giro.mp4" autoplay loop muted playsinline width="540">Render 3D de la placa de chufe v0.1 rev-a.</video>
+
 ## Bill of materials (v0.1 rev-a)
 
 Generado a partir de `hardware/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch`.
