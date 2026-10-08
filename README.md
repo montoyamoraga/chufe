@@ -43,6 +43,11 @@ piruetas vende chufe armado y probado.
 
 Como es hardware de código abierto, los archivos fuente de KiCad, los archivos de fabricación de [hardware/chufe-v-0-rev-a-fab](./hardware/chufe-v-0-rev-a-fab), los de armado de [hardware/chufe-v-0-rev-a-pcba](./hardware/chufe-v-0-rev-a-pcba) y la [Bill of materials](https://piruetas.xyz/chufe/#bill-of-materials-v01-rev-a) están publicados para que cualquiera pueda estudiar, modificar y fabricar el diseño. piruetas no da soporte para unidades fabricadas o armadas por terceros.
 
+## Créditos
+
+- Aarón Montoya-Moraga: investigación, esquemático, PCB, fabricación y documentación.
+- Matías Serrano: revisor experto de esquemáticos y PCBs.
+
 ## Licencia
 
 chufe es (c) 2026 piruetas SpA / Aarón Montoya-Moraga.

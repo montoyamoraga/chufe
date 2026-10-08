@@ -113,6 +113,11 @@ Fabricar con los gerbers y archivos de taladrado de [`hardware/chufe-v-0-rev-a-f
 
 Para armado en JLCPCB, la lista de componentes con números de parte de LCSC y el archivo de posiciones están en [`hardware/chufe-v-0-rev-a-pcba`](https://github.com/piruetasxyz/chufe/tree/main/hardware/chufe-v-0-rev-a-pcba). Los LEDs (D2 a D5) y los conectores (J1, J2 y J3) no están en esa lista y se sueldan a mano.
 
+## Créditos
+
+- Aarón Montoya-Moraga: investigación, esquemático, PCB, fabricación y documentación.
+- Matías Serrano: revisor experto de esquemáticos y PCBs.
+
 ## Licencia
 
 El hardware está bajo CERN-OHL-P-2.0 y esta documentación bajo CC-BY-SA-4.0. El símbolo, la huella y los modelos 3D del convertidor URA2412YMD-20WR3, en `terceros/`, son de EasyEDA / LCSC / JLCPCB y no están cubiertos por estas licencias. Ver [LICENSE.md](https://github.com/piruetasxyz/chufe/blob/main/LICENSE.md).
