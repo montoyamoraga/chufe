@@ -4,7 +4,7 @@ Fuente de alimentación eurorack: recibe 12 V DC por un jack y entrega ±12V y +
 
 ## Revisiones
 
-- `v0.1 rev-a`: octubre 2026, todavía sin probar.
+- `v0.1 rev-a`: fabricada y probada en octubre 2026.
 
 ## Cómo funciona
 
@@ -90,7 +90,7 @@ Generado a partir de `hardware/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch`.
 | R1 | 1 | 22k | Resistor_SMD:R_0805_2012Metric | Resistencia |
 | R2, R3, R4 | 3 | 10k | Resistor_SMD:R_0805_2012Metric | Resistencia |
 | R5 | 1 | 2k2 | Resistor_SMD:R_0805_2012Metric | Resistencia |
-| U1 | 1 | URA2412YMD-20WR3_C5369773 | easyeda2kicad:PWRM-TH_YLPTEC_VRBXXXXYMD-20WR3 | Convertidor DC-DC aislado ±12V: URA2412YMD-20WR3, 20 W, THT ([LCSC C5369773](https://www.lcsc.com/product-detail/C5369773.html)) |
+| U1 | 1 | URA2412YMD-20WR3 | piruetas:YLPTEC_URA_YMD-20WR3 | Convertidor DC-DC aislado ±12V: URA2412YMD-20WR3, 20 W, THT ([LCSC C5369773](https://www.lcsc.com/product-detail/C5369773.html)) |
 | U2 | 1 | L7805 | Package_TO_SOT_SMD:TO-252-2 | Regulador de voltaje lineal +5V |
 
 19 componentes en total.
@@ -120,4 +120,4 @@ Para armado en JLCPCB, la lista de componentes con números de parte de LCSC y e
 
 ## Licencia
 
-El hardware está bajo CERN-OHL-P-2.0 y esta documentación bajo CC-BY-SA-4.0. El símbolo, la huella y los modelos 3D del convertidor URA2412YMD-20WR3, en `terceros/`, son de EasyEDA / LCSC / JLCPCB y no están cubiertos por estas licencias. Ver [LICENSE.md](https://github.com/piruetasxyz/chufe/blob/main/LICENSE.md).
+El hardware está bajo CERN-OHL-P-2.0 y esta documentación bajo CC-BY-SA-4.0. Ver [LICENSE.md](https://github.com/piruetasxyz/chufe/blob/main/LICENSE.md).

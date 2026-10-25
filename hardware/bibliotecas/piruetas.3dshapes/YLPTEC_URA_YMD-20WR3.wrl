@@ -1,0 +1,30 @@
+#VRML V2.0 utf8
+# Modelo 3D simplificado del convertidor DC-DC YLPTEC URA_YMD-20WR3.
+# (c) 2026 piruetas SpA / Aarón Montoya-Moraga, CERN-OHL-P-2.0.
+# Cuerpo de 25.4 x 25.4 x 11.7 mm y 6 pines de 1 mm de diámetro.
+Transform { scale 0.393701 0.393701 0.393701 children [
+    Transform { translation 0 0 6.35 children [
+      Shape { appearance Appearance { material Material { diffuseColor 0.1 0.1 0.1 specularColor 0.2 0.2 0.2 shininess 0.3 } }
+        geometry Box { size 25.4 25.4 11.7 } }
+    ] }
+    Shape { appearance DEF metal Appearance { material Material { diffuseColor 0.75 0.75 0.75 specularColor 0.9 0.9 0.9 shininess 0.8 } }
+      geometry Box { size 0.01 0.01 0.01 } }
+    Transform { translation -10.16 2.54 -1.75 rotation 1 0 0 1.5708 children [
+      Shape { appearance USE metal geometry Cylinder { radius 0.5 height 4.5 } }
+    ] }
+    Transform { translation -10.16 -2.54 -1.75 rotation 1 0 0 1.5708 children [
+      Shape { appearance USE metal geometry Cylinder { radius 0.5 height 4.5 } }
+    ] }
+    Transform { translation 10.16 -10.16 -1.75 rotation 1 0 0 1.5708 children [
+      Shape { appearance USE metal geometry Cylinder { radius 0.5 height 4.5 } }
+    ] }
+    Transform { translation 10.16 0 -1.75 rotation 1 0 0 1.5708 children [
+      Shape { appearance USE metal geometry Cylinder { radius 0.5 height 4.5 } }
+    ] }
+    Transform { translation 10.16 10.16 -1.75 rotation 1 0 0 1.5708 children [
+      Shape { appearance USE metal geometry Cylinder { radius 0.5 height 4.5 } }
+    ] }
+    Transform { translation -10.16 10.16 -1.75 rotation 1 0 0 1.5708 children [
+      Shape { appearance USE metal geometry Cylinder { radius 0.5 height 4.5 } }
+    ] }
+] }
