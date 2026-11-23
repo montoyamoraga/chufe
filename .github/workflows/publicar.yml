@@ -39,7 +39,7 @@ jobs:
       HUELLA: docs/videos/chufe-placa-3d-giro.huella
       EJE: z
       TAMANO: 1080x1080
-      FONDO: "#ffffff"
+      FONDO: "#ff9ecf"
       SEGUNDOS: "6"
     steps:
       # git tiene que estar instalado antes de clonar, para que checkout
@@ -92,6 +92,12 @@ jobs:
           mkdir -p /usr/local/share/fonts/piruetas
           printf '%s' "$FUENTE_TALAGANTE" | base64 --decode > /usr/local/share/fonts/piruetas/Talagante.otf
           fc-cache -f
+          # Sin Talagante, KiCad la reemplaza sin avisar: mejor fallar acá.
+          if ! fc-list | grep -qi talagante; then
+            echo "::error::Talagante no quedó instalada: revisar el secreto FUENTE_TALAGANTE."
+            exit 1
+          fi
+          fc-list | grep -i talagante
 
       - name: Recuperar cuadros renderizados
         if: steps.revisar.outputs.renderizar == 'true'
