@@ -2,7 +2,7 @@
 
 ## About
 
-chufe is an open source hardware Eurorack power supply by [piruetas](https://piruetas.xyz). It takes 12 V DC from a barrel jack, with reverse polarity protection, and outputs ±12V (from a 20 W isolated DC-DC converter) and +5V (from an L7805 linear regulator) on a 16-pin Eurorack power header and a 4-pin Molex KK-396 connector, with an LED for each rail. It is designed to feed a power bus such as [chufebu](https://github.com/piruetasxyz/chufebu). The design is made in KiCad 10 with KiCad's standard libraries plus its own symbol, footprint and 3D model for the DC-DC converter, included in `hardware/bibliotecas/`. Hardware is licensed under CERN-OHL-P-2.0 and documentation under CC-BY-SA-4.0 (see [LICENSE.md](./LICENSE.md)). Documentation, schematic, board render and bill of materials (in Spanish): <https://piruetas.xyz/chufe/>.
+chufe is an open source hardware Eurorack power supply by [piruetas](https://piruetas.xyz). It takes 12 V DC from a barrel jack, with reverse polarity protection, and outputs ±12V (from a 20 W isolated DC-DC converter) and +5V (from an L7805 linear regulator) on two 16-pin Eurorack power headers, with an LED for each rail. It is designed to feed a power bus such as [chufebu](https://github.com/piruetasxyz/chufebu). The design is made in KiCad 10 with KiCad's standard libraries plus its own symbol, footprint and 3D model for the DC-DC converter, included in `hardware/bibliotecas/`. Hardware is licensed under CERN-OHL-P-2.0 and documentation under CC-BY-SA-4.0 (see [LICENSE.md](./LICENSE.md)). Documentation, schematic, board render and bill of materials (in Spanish): <https://piruetas.xyz/chufe/>.
 
 ## Acerca de
 
@@ -15,19 +15,19 @@ Documentación, esquemático, placa y Bill of materials: <https://piruetas.xyz/c
 - Entrada de 12 V DC por jack, con protección contra polaridad inversa.
 - Salidas de +12V y -12V desde un convertidor DC-DC aislado de 20 W (URA2412YMD-20WR3).
 - Salida de +5V desde un regulador lineal L7805, alimentado desde +12V.
-- Un header de alimentación Eurorack de 16 pines (2x08) y un conector Molex KK-396 de 4 pines: -12V, GND, +5V y +12V.
+- Dos headers de alimentación Eurorack de 16 pines (2x08), con -12V, GND, +12V y +5V en ambos.
 - 4 LEDs indicadores: entrada, -12V, +12V y +5V.
 - Placa de 50 × 65 mm, 2 capas, con 4 agujeros de montaje M3.
 - Hecha para alimentar un bus como [chufebu](https://github.com/piruetasxyz/chufebu).
 
 ## Pines y manual de uso
 
-Los pines del header de 16 pines y del conector KK-396, cómo conectar chufe y las advertencias están en el [manual de uso](https://piruetas.xyz/chufe/#manual-de-uso).
+Los pines de los headers de 16 pines, cómo conectar chufe y las advertencias están en el [manual de uso](https://piruetas.xyz/chufe/#manual-de-uso).
 
 ## Revisiones
 
 - `v0.1 rev-a`: fabricada y probada en octubre 2026.
-- `v0.1 rev-b`: archivos de fabricación listos en noviembre 2026. Dos headers Eurorack de 16 pines en vez de un header y un conector Molex KK-396, pistas de alimentación más anchas (0.8 mm), C3 cerámico en vez de electrolítico, etiquetas para los LEDs, logo de certificación OSHWA (CL000011) y modelo 3D corregido del convertidor DC-DC.
+- `v0.1 rev-b`: fabricada y probada en noviembre 2026. Dos headers Eurorack de 16 pines en vez de un header y un conector Molex KK-396, pistas de alimentación más anchas (0.8 mm), C3 cerámico en vez de electrolítico, etiquetas para los LEDs, logo de certificación OSHWA (CL000011) y modelo 3D corregido del convertidor DC-DC.
 
 ## Pendiente para rev-1
 
