@@ -14,5 +14,5 @@ descripciones:
 # Para cambiar de revisión, actualizar "proyecto" (por ejemplo rev-a → rev-b).
 modulos:
   - nombre: chufe
-    proyecto: hardware/chufe-v-0-rev-a/chufe-v-0-rev-a
+    proyecto: hardware/chufe-v-0-rev-b/chufe-v-0-rev-b
     doc: docs/index.md

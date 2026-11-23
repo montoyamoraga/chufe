@@ -5,6 +5,7 @@ Fuente de alimentación eurorack: recibe 12 V DC por un jack y entrega ±12V y +
 ## Revisiones
 
 - `v0.1 rev-a`: fabricada y probada en octubre 2026.
+- `v0.1 rev-b`: archivos de fabricación listos en noviembre 2026. Dos headers Eurorack de 16 pines en vez de un header y un conector Molex KK-396, pistas de alimentación más anchas y C3 cerámico en vez de electrolítico.
 
 ## Cómo funciona
 
@@ -59,21 +60,21 @@ Conector Molex KK-396 de 4 pines:
 - El convertidor entrega 20 W en total entre +12V y -12V. La corriente de +5V sale de la línea de +12V, así que también cuenta en ese total. Suma el consumo de tus módulos en cada línea y no superes lo que entrega chufe.
 - El L7805 disipa como calor la diferencia entre 12V y 5V: mientras más corriente de +5V uses, más se calienta.
 
-## Esquemático y placa (v0.1 rev-a)
+## Esquemático y placa (v0.1 rev-b)
 
-Generados automáticamente por GitHub Actions a partir de `hardware/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch` y `.kicad_pcb` en cada push que los modifica.
+Generados automáticamente por GitHub Actions a partir de `hardware/chufe-v-0-rev-b/chufe-v-0-rev-b.kicad_sch` y `.kicad_pcb` en cada push que los modifica.
 
-![Esquemático de chufe v0.1 rev-a](./images/chufe-esquematico.svg)
+![Esquemático de chufe v0.1 rev-b](./images/chufe-esquematico.svg)
 
-![Placa de chufe v0.1 rev-a](./images/chufe-placa.svg)
+![Placa de chufe v0.1 rev-b](./images/chufe-placa.svg)
 
 Render 3D de la placa:
 
-<video src="./videos/chufe-placa-3d-giro.mp4" autoplay loop muted playsinline width="540">Render 3D de la placa de chufe v0.1 rev-a.</video>
+<video src="./videos/chufe-placa-3d-giro.mp4" autoplay loop muted playsinline width="540">Render 3D de la placa de chufe v0.1 rev-b.</video>
 
-## Bill of materials (v0.1 rev-a)
+## Bill of materials (v0.1 rev-b)
 
-Generado a partir de `hardware/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch`.
+Generado a partir de `hardware/chufe-v-0-rev-b/chufe-v-0-rev-b.kicad_sch`.
 
 <!-- BOM_TABLE_START -->
 
@@ -99,7 +100,7 @@ Generado a partir de `hardware/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch`.
 
 ### Placa (PCB)
 
-Fabricar con los gerbers y archivos de taladrado de [`hardware/chufe-v-0-rev-a-fab`](https://github.com/piruetasxyz/chufe/tree/main/hardware/chufe-v-0-rev-a-fab).
+Fabricar con los gerbers y archivos de taladrado de [`hardware/chufe-v-0-rev-b-fab`](https://github.com/piruetasxyz/chufe/tree/main/hardware/chufe-v-0-rev-b-fab).
 
 | Especificación | Valor |
 | --- | --- |
@@ -111,7 +112,7 @@ Fabricar con los gerbers y archivos de taladrado de [`hardware/chufe-v-0-rev-a-f
 
 ### Armado (PCBA)
 
-Para armado en JLCPCB, la lista de componentes con números de parte de LCSC y el archivo de posiciones están en [`hardware/chufe-v-0-rev-a-pcba`](https://github.com/piruetasxyz/chufe/tree/main/hardware/chufe-v-0-rev-a-pcba). Los LEDs (D2 a D5) y los conectores (J1, J2 y J3) no están en esa lista y se sueldan a mano.
+Para armado en JLCPCB, la lista de componentes con números de parte de LCSC y el archivo de posiciones están en [`hardware/chufe-v-0-rev-b-pcba`](https://github.com/piruetasxyz/chufe/tree/main/hardware/chufe-v-0-rev-b-pcba). Los LEDs (D2 a D5) y los conectores (J1, J2 y J3) no están en esa lista y se sueldan a mano.
 
 ## Créditos
 
